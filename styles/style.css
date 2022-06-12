@@ -1,0 +1,28 @@
+* {
+  border: 1px solid black;
+}
+
+header {
+  height: 50px;
+}
+
+#container {
+  display: flex;
+}
+
+#container > * {
+  height: 300px;
+}
+
+#left,
+#right {
+  width: 20%;
+}
+
+main {
+  width: 60%;
+}
+
+footer {
+  height: 50px;
+}
